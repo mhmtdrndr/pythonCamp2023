@@ -1,0 +1,13 @@
+PYTHON VERİ TİPLERİ
+
+SAYI VERİ TÜRLERİ; sayısal değerleri saklar. Sayı nesneleri, onlara bir değer atadığınızda oluşturulur.
+
+METİN VERİ TÜRLERİ; tırnak işaretleri içinde temsil edilen bitişik bir karakter kümesi olarak tanımlanır. Python, tek veya çift tırnak çiftlerine izin verir. Dizelerin alt kümeleri, dilim operatörü ([ ] ve [:] ) kullanılarak, dizinler dizenin başında 0'dan başlayan ve -1'den sona doğru çalışan dizinlerle alınabilir. 
+
+LİSTELER ; Python'un bileşik veri türlerinin en çok yönlü olanlarıdır. Bir liste, virgülle ayrılmış ve köşeli parantez ([]) içine alınmış öğeleri içerir. Listeler bir dereceye kadar C'deki dizilere benzer. Aralarındaki farklardan biri, bir listeye ait tüm öğelerin farklı veri türünde olabilmesidir. Bir listede saklanan değerlere dilim operatörü ([ ] ve [:]) kullanılarak erişilebilir ve dizinler listenin başında 0'dan başlayıp -1'e kadar devam eder. 
+
+TUPLES; listeye benzeyen başka bir dizi veri türüdür. Tuple, virgülle ayrılmış bir dizi değerden oluşur. Ancak listelerin aksine, demetler parantez içine alınır. Listeler ve demetler arasındaki temel fark şunlardır: - Listeler köşeli parantezler ([ ]) içine alınır ve öğeleri ve boyutları değiştirilebilirken, demetler parantez ( ( ) ) içine alınır ve güncellenemez. Demetler salt okunur listeler olarak düşünülebilir.
+
+DİCTİONARY; Python'un sözlükleri bir tür karma tablo türüdür. Perl'de bulunan ilişkisel diziler veya karmalar gibi çalışırlar ve anahtar-değer (key - value) çiftlerinden oluşurlar. Bir sözlük anahtarı hemen hemen her Python türü olabilir, ancak genellikle sayılar veya dizelerdir. Öte yandan değerler, rastgele herhangi bir Python nesnesi olabilir. Sözlükler kaşlı ayraçlar ({ }) içine alınır ve değerler köşeli ayraçlar ([]) kullanılarak atanabilir ve erişilebilir.
+
+Boolean Değerleri;  Programlamada genellikle bir ifadenin Doğru mu yoksa Yanlış mı olduğunu bilmeniz gerekir. Python'da herhangi bir ifadeyi değerlendirebilir ve True veya False olmak üzere iki yanıttan birini alabilirsiniz.
