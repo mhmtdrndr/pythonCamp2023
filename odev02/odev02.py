@@ -48,3 +48,4 @@ def findStudentNumber(student):
 # Fonksiyonların Testleri :
 
 # findStudentNumber("Lionel Messi")
+# multiplyAddStudent()
