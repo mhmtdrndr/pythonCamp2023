@@ -20,8 +20,15 @@ def deleteStudent(student):
 
 
 #Listeye birden fazla öğrenci eklemeyi mümkün kılan
-
-
+def multiplyAddStudent():
+    while True:
+        print("Öğrenci Girişi Yapmadan Çıkmak İçin [H / h] Giriniz.")
+        name = input("Öğrenci ismini giriniz : ")
+        surName = input("Öğrenci soyismini giriniz :")
+        if(name == "H" or name == "h"):
+            break
+        else:
+            studentList.append(fullName(name, surName))
 
 # Listedeki tüm öğrencileri tek tek ekrana yazdıran
 def printList(list):
@@ -30,6 +37,14 @@ def printList(list):
 
 
 # Öğrencinin listedeki index numarası öğrenci numarası olarak kabul edildiğini düşünerek öğrencinin numarasını öğrenmeyi mümkün kılan
-
+def findStudentNumber(student):
+    if student in studentList:
+        print(f"{student} isimli öğrencinin numarası : {studentList.index(student)}")
+    else:
+        print(f"{student} isimli öğrenci listede yok...")
 
 # Listeden birden fazla öğrenci silmeyi mümkün kılan (döngü kullanınız)
+
+# Fonksiyonların Testleri :
+
+# findStudentNumber("Lionel Messi")
