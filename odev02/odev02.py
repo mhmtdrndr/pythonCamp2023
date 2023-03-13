@@ -43,9 +43,23 @@ def findStudentNumber(student):
     else:
         print(f"{student} isimli öğrenci listede yok...")
 
+
 # Listeden birden fazla öğrenci silmeyi mümkün kılan (döngü kullanınız)
+def deleteMutliplyStudent():
+    while True:
+        print("Öğrenci Girişi Yapmadan Çıkmak İçin [H / h] Giriniz.")
+        name = input("Öğrenci ismini giriniz : ")
+        surName = input("Öğrenci soyismini giriniz :")
+        if(name == "H" or name == "h"):
+            break
+        else:
+            studentList.remove(fullName(name, surName))
 
 # Fonksiyonların Testleri :
 
+printList(studentList)
+
 # findStudentNumber("Lionel Messi")
-# multiplyAddStudent()
+
+# deleteMutliplyStudent()
+
